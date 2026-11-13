@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- EDITAR: Título que aparece en la pestaña del navegador -->
+    <title>Escuela Provincial N° 1279 "Brigadier Estanislao López"</title>
+    <style>
+        :root {
+            --color-primario: #1a4b84; /* Azul institucional */
+            --color-secundario: #f4f7f9;
+            --color-texto: #333333;
+            --color-borde: #dce3e8;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-secundario);
+            color: var(--color-texto);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--color-primario);
+            color: #ffffff;
+            padding: 2.5rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .contenedor {
+            max-width: 850px;
+            margin: 2rem auto;
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .foto-escuela {
+            width: 100%;
+            max-height: 380px;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1px solid var(--color-borde);
+            margin-bottom: 1.5rem;
+            background-color: #e9ecef;
+        }
+        h2 {
+            color: var(--color-primario);
+            border-bottom: 2px solid var(--color-borde);
+            padding-bottom: 0.5rem;
+            margin-top: 1.5rem;
+        }
+        .grilla-datos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .tarjeta-dato {
+            background-color: var(--color-secundario);
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--color-primario);
+        }
+        .tarjeta-dato strong {
+            display: block;
+            color: var(--color-primario);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+            color: #666666;
+            border-top: 1px solid var(--color-borde);
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- EDITAR AQUÍ: Nombre oficial completo de la institución -->
+        <h1>Escuela Provincial N° 1279 "Brigadier Estanislao López"</h1>
+        <p>Ministerio de Educación - Provincia de Santa Fe</p>
+    </header>
+
+    <main class="contenedor">
+        
+        <!-- EDITAR AQUÍ: Reemplazar "fachada-escuela.jpg" por el nombre real de la foto subida a GitHub -->
+        <img src="fachada-escuela.jpg" alt="Frente de la Escuela Provincial N° 1279 Brigadier Estanislao López" class="foto-escuela">
+
+        <section>
+            <h2>Sobre Nuestra Institución</h2>
+            <!-- EDITAR AQUÍ: Breve descripción institucional -->
+            <p>
+                Somos una institución educativa de gestión pública perteneciente al sistema educativo de la Provincia de Santa Fe. 
+                Brindamos formación integral a nuestra comunidad educativa, promoviendo la inclusión, el compromiso ciudadano y la innovación pedagógica.
+            </p>
+        </section>
+
+        <!-- SECCIÓN CLAVE PARA VALIDACIÓN DE GOOGLE WORKSPACE -->
+        <section>
+            <h2>Datos Oficiales e Institucionales</h2>
+            <div class="grilla-datos">
+                <div class="tarjeta-dato">
+                    <strong>Institución</strong>
+                    <!-- EDITAR AQUÍ -->
+                    <span>Escuela Provincial N° 1279 "Brigadier Estanislao López"</span>
+                </div>
+                <div class="tarjeta-dato">
+                    <strong>Gestión y Dependencia</strong>
+                    <!-- EDITAR AQUÍ -->
+                    <span>Gestión Pública - Ministerio de Educación de Santa Fe</span>
+                </div>
+                <div class="tarjeta-dato">
+                    <strong>Código Único de Establecimiento (CUE)</strong>
+                    <!-- EDITAR AQUÍ: Colocar el número de CUE oficial de 9 dígitos -->
+                    <span>820XXXX-00</span>
+                </div>
+                <div class="tarjeta-dato">
+                    <strong>Nivel Educativo</strong>
+                    <!-- EDITAR AQUÍ: Ej. Nivel Primario / Nivel Secundario -->
+                    <span>Educación Primaria / Secundaria</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Ubicación y Contacto</h2>
+            <div class="grilla-datos">
+                <div class="tarjeta-dato">
+                    <strong>Dirección</strong>
+                    <!-- EDITAR AQUÍ: Calle, número, localidad y código postal -->
+                    <span>[Calle y Número], Rosario, Santa Fe (CP 2000)</span>
+                </div>
+                <div class="tarjeta-dato">
+                    <strong>Teléfono Institucional</strong>
+                    <!-- EDITAR AQUÍ -->
+                    <span>(0341) XXX-XXXX</span>
+                </div>
+                <div class="tarjeta-dato">
+                    <strong>Correo Electrónico Oficial</strong>
+                    <!-- EDITAR AQUÍ: Correo oficial actual o futuro -->
+                    <span>contacto@brlopez.edu.ar</span>
+                </div>
+                <div class="tarjeta-dato">
+                    <strong>Sitio Web Oficial</strong>
+                    <span>www.brlopez.edu.ar</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- EDITAR AQUÍ: Año y nombre institucional -->
+        <p>© 2026 Escuela Provincial N° 1279 "Brigadier Estanislao López" - Rosario, Santa Fe, Argentina.</p>
+        <p>Dominio oficial: <strong>brlopez.edu.ar</strong></p>
+    </footer>
+
+</body>
+</html>
